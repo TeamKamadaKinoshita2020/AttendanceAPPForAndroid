@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?><!-- international -->
+<resources>
+
+    <string name="app_name">Attendance Application</string>
+    <string name="action_settings">Check your attend log</string>
+
+    <!-- 汎用 ダイアログ用 -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="error">Error</string>
+    <string name="wait">Wait a moment</string>
+    <string name="dismiss">Dismiss</string>
+
+
+    <!-- MainActivity用 -->
+    <string name="text_read_stucard">Please read your student card</string>>
+    <string name="text_confirm_student_title">Confirmation student info</string>>
+    <string name="text_confirm_student_message">Will you attend this student card?</string>>
+    <!-- SelectLectureActivity用 -->
+    <string name="text_select_lecture">Please select lecture you want to attend</string>>
+    <string name="text_no_lecture">There are currently no lectures</string>>
+    <string name="text_confirm_lecture_title">Confirmation of attendance lecture</string>>
+    <string name="text_confirm_lecture_message">Will you attend this lecture?</string>>
+    <string name="text_confirm_already_attend_message">You are already attend in this lecture\nDo you move the seat?</string>>
+    <string name="list_text_teacher_name">Teacher:</string>
+    <string name="list_text_room_name">Classroom:</string>
+    <!-- ReadCardIdActivity用 -->
+    <string name="text_attend_lecture">Selected lecture</string>>
+    <string name="text_scan_seatcard">Please read the card on the desk</string>>
+    <string name="text_confirm_attend_title">Confirmation of attendance info</string>>
+    <string name="text_confirm_attend_message">Will you attend with this content?</string>>
+    <string name="seat_num">Seat number</string>
+    <string name="text_success_attendance">Succeeded in attendance</string>
+    <!-- Fragment用 -->
+
+    <!-- 読み取りエラーとか -->
+    <string name="error_list_make">Creation of list failed</string>
+    <string name="error_invalid_seat_card">It is an invalid seat card</string>
+    <string name="error_already_attend_seat">This seat has already attended</string>
+    <string name="error_attendance">Failed attendance</string>
+
+    <string name="label_mid"></string> <!-- わざと空白 -->
+
+    <string name="text_class">科目名</string>
+    <string name="button_test">テスト</string>
+
+
+
+
+    <!-- 以下先輩から拝借してるもの -->
+
+    <!-- MainActivity.java -->
+    <string name="notscan">Please scan student card.</string>
+    <string name="resetconfirm">Are you sure you want to reset the read student data?</string>
+    <string name="text_alreadyscan">Student ID card has already been scanned.</string>
+    <!-- NFCがOFFです alertDialog  -->
+    <string name="noticeNFCdisable1">NFC is disable</string>
+    <string name="noticeNFCdisable2">Please turn on the NFC by Settings.</string>
+    <!-- 学生証読み取り結果 -->
+    <string name="error_unknown">ERROR : An unknown error has occurred.</string>
+    <string name="error_nonfelica">ERROR : Not a FeliCa card.</string>
+    <string name="error_length">ERROR : The size of the system code list is wrong.</string>
+    <string name="error_auth">ERROR : Authentication is required.</string>
+    <string name="error_unsupport">ERROR : Character code has not been corresponding.</string>
+
+    <!-- SendData.java -->
+    <string name="selectClass">Please select the class to register your attendance.</string>
+    <string name="errorFailedconnect">Failed to Connect to teacher\'s devices.</string>
+    <string name="scanBeacon">Detecting the BLE beacon</string>
+
+    <!--  SocketSend.java -->
+    <string name="sendData">Sending the attendance registration data</string>
+    <!-- 登録結果 -->
+    <string name="failedRegist">Failed to attend registration.</string>
+    <string name="noResponse">Registration of attendance was closed.</string>
+    <string name="connectException">Failed to Connect to teacher\'s devices.</string>
+    <string name="unresolvedExc">Failed to resolve DNS.</string>
+    <string name="dataError">Name or student ID number can\'t be read.</string>
+    <string name="successRegist">Succeeded in attendance registration.</string>
+    <string name="late">You are late</string>
+    <string name="already">You have already attended.</string>
+    <string name="exception">An exception occurred.</string>
+
+    <!-- ScanBLEBeacon.java -->
+    <string name="startScan">Start scanning BLE Beacon.</string>
+
+    <!-- activity_main.xml -->
+    <string name="regist">Register Attendance</string>
+    <string name="reset">scan reset</string>
+
+    <!-- studentListActivity.java -->
+    <string name="recordcheck">Record Check</string>
+
+    <string name="action_attendlist">登録した出席情報を確認する</string>
+    <string name="button_register">出席登録</string>
+
+    <string name="button_reset">学生証スキャンをやり直す</string>
+    <string name="text_wait">しばらくお待ち下さい</string>
+    <string name="text_scaniccard">学生証をスキャンしてください</string>
+    <string name="text_scanbeacon">BLE Beaconの電波を受信しています</string>
+    <string name="text_beaconnotfound">BLE Beaconが見つかりません。</string>
+    <string name="text_canceledscan">スキャンを中止しました</string>
+    <string name="text_getclass">授業情報を取得しています</string>
+    <string name="text_failedtogetclass">授業情報の取得に失敗しました</string>
+    <string name="text_failedtoconnect">サーバへの接続に失敗しました。</string>
+    <string name="text_confirmattend">以下の授業に出席登録を行います : </string>
+    <string name="text_confirm">確認</string>
+    <string name="text_sendingattend">出席登録を行っています</string>
+    <string name="text_sendattendance">データを送信しています</string>
+    <string name="text_succeed">出席登録に成功しました。</string>
+    <string name="text_endattendance">出席登録の受付が終了しています</string>
+    <string name="text_failed">出席登録に失敗しました。</string>
+    <string name="text_cancel">キャンセル</string>
+    <string name="text_error">エラー</string>
+    <string name="label_settings">設定</string>
+
+</resources>
